@@ -1,0 +1,57 @@
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.en-fila{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin: -10;
+}
+
+.titulo-1{
+    text-align: center;
+    justify-content: center;
+    font-size: 3vw;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.fondo-bordes{
+    background-color: rgb(179, 98, 179);
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    padding: 1%;
+    margin: 1%;
+    border: solid;
+    border-color: rgb(179, 98, 179);
+    background-color: rgb(179, 98, 179);
+    font-family: sans-serif;
+    font-style: italic;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav{
+    margin: 1%; 
+}
+
+a:hover{
+    background-color: rgb(180, 10, 180);
+    border-color: rgb(180, 10, 180);
+}
